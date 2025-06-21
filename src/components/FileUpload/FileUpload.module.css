@@ -1,0 +1,48 @@
+.file-upload-container {
+    margin: 2rem 0;
+}
+
+.file-upload-input {
+    display: none;
+}
+
+.file-upload-label {
+    display: block;
+    padding: 3rem 2rem;
+    border: 2px dashed #6366f1;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: rgba(99, 102, 241, 0.05);
+}
+
+.file-upload-label:hover {
+    background-color: rgba(99, 102, 241, 0.1);
+    border-color: #4f46e5;
+    transform: translateY(-2px);
+}
+
+.upload-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.upload-icon {
+    width: 48px;
+    height: 48px;
+    fill: #6366f1;
+}
+
+.upload-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #374151;
+}
+
+.upload-hint {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
